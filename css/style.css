@@ -3,14 +3,8 @@ h2 {
   text-align: center;
   font-family: cursive, Arial;
 }
-
-#main-doc {
-  text-align: justify;
-  font-family: Arial;
-}
-
 nav {
-  
+  font-family: cursive, Arial;
   height: 100%;
   width: 300px;
   position: fixed;
@@ -21,10 +15,22 @@ nav {
   padding-top: 20px;
 }
 
+#main-doc {
+  text-align: justify;
+  font-family: Arial;
+}
+
 #text-body {
   background-color: #CDCDCD;
   margin-left: 300px;
   padding: 0px 10px;
+}
+
+.not-showing {
+  list-style: none;
+}
+.nav-link {
+  text-decoration: none;
 }
 
 @media screen and (max-width: 460px) {
