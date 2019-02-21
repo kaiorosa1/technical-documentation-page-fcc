@@ -1,31 +1,46 @@
-#main-doc{
+h1,
+h2 {
   text-align: center;
+  font-family: cursive, Arial;
 }
 
-main{
-/*   display: flex; */
+#main-doc {
+  text-align: justify;
+  font-family: Arial;
 }
 
 nav {
-  height: 100%; 
-  width: 160px; 
-  position: fixed; 
-  z-index: 1; 
-  top: 0; 
+  
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
   left: 0;
-  background-color: #111; 
-  overflow-x: hidden; 
+  overflow-x: hidden;
   padding-top: 20px;
 }
 
-#text-body{
-  background-color: blue;
-  margin-left: 160px; 
+#text-body {
+  background-color: #CDCDCD;
+  margin-left: 300px;
   padding: 0px 10px;
 }
 
- @media screen and (max-width: 460px) {
-  body {
-    background-color: yellow;
+@media screen and (max-width: 460px) {
+  
+  nav {
+    height: 200px;
+    overflow: hidden;
+    position: absolute;
+    top: 0; 
+    width: 100%; 
+    font-size: 12px;
+  }
+  #text-body {
+    margin-left: 0;
+    padding: 10px;
+    margin-top: 200px;
+    background-color: #CDCDCD;
   }
 }
